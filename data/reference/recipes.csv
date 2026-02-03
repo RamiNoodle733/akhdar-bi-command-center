@@ -1,0 +1,14 @@
+recipe_id,recipe_name,variant,batch_size_ml,ingredient_match,percent,amount_ml,material_id
+SHELL_V2,Shell v2,final,5,Jojoba oil (carrier),73.876,3.694,OIL-JOB-16
+SHELL_V2,Shell v2,final,5,Rose Givco 217,5.557,0.278,ROSE-217
+SHELL_V2,Shell v2,final,5,Galaxolide 50% in IPM (IFF),5.718,0.286,GAL-50
+SHELL_V2,Shell v2,final,5,Oud Synth 10760 E (Firmenich),3.523,0.176,OUD-10760
+SHELL_V2,Shell v2,final,5,Sandalore (Givaudan),2.738,0.137,SAND-GIV
+SHELL_V2,Shell v2,final,5,Sandalwood,2.067,0.103,OIL-SND-005
+SHELL_V2,Shell v2,final,5,Patchouli EO,1.732,0.087,OIL-PAT-01
+SHELL_V2,Shell v2,final,5,Labdanum Resinoid 50%,1.358,0.068,LAB-50
+SHELL_V2,Shell v2,final,5,Sweet Orange EO,1.602,0.080,OIL-ORG-01
+SHELL_V2,Shell v2,final,5,Lavender EO,1.128,0.056,OIL-LAV-01
+SHELL_V2,Shell v2,final,5,Clove Bud EO,0.701,0.035,OIL-CLV-01
+SHELL_V2,Shell v2,final,5,Roller Bottle 5ml,,,BOT-GLS-05
+SHELL_V2,Shell v2,final,5,Label,,,LBL-1000

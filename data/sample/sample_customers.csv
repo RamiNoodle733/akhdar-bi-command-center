@@ -1,0 +1,5 @@
+Id,First Name,Last Name,Email,Accepts Email Marketing,Company,Address1,Address2,City,Province,Province Code,Country,Country Code,Zip,Phone,Accepts SMS Marketing,Total Spent,Total Orders,Tags,Note,Tax Exempt,Tax Exemptions
+1000000001,John,Doe,john.doe@example.com,yes,,123 Sample Street,,Houston,Texas,TX,United States,US,'77001,5551234567,no,24.90,2,,,,
+1000000002,Jane,Smith,jane.smith@example.com,no,,456 Demo Ave,,Dallas,Texas,TX,United States,US,'75201,5559876543,no,11.78,1,,,,
+1000000003,Bob,Wilson,bob.wilson@example.com,yes,,789 Test Blvd,,Austin,Texas,TX,United States,US,'78701,5555551234,no,24.90,1,,,,
+1000000004,Alice,Jones,alice.jones@example.com,no,,321 Local Lane,,Houston,Texas,TX,United States,US,'77002,5551112222,no,10.50,1,,,,

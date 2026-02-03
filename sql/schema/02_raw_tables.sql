@@ -1,0 +1,23 @@
+-- ============================================
+-- Akhdar BI Command Center
+-- 02_raw_tables.sql - Raw Data Tables
+-- ============================================
+-- NOTE: Raw tables are dynamically created by the ETL process
+-- using pandas to_sql with if_exists='replace'.
+-- This ensures schema matches the actual CSV files.
+-- 
+-- The raw layer stores data exactly as exported from source systems.
+-- No transformations are applied at this stage.
+-- ============================================
+
+-- Placeholder comment - tables created by ETL:
+-- raw.orders (from orders_export_1.csv)
+-- raw.products (from products_export_1.csv)  
+-- raw.customers (from customers_export.csv)
+-- raw.discounts (from discounts_export_1.csv)
+-- raw.product_sku_map (from data/reference/product_sku_map.csv)
+-- raw.material_costs (from data/reference/material_costs.csv)
+-- raw.recipes (from data/reference/recipes.csv)
+-- raw.meta_ads (from رامي-فايز-عبد-الرزاق-Campaigns-*.csv)
+-- raw.gsc_daily (from akhdarperfumes.com-Performance-on-Search-*/Chart.csv)
+

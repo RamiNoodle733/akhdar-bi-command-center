@@ -1,0 +1,3 @@
+lineitem_name,product_handle,internal_sku,size_ml,recipe_id,product_category,is_active
+"Shell v2 For Men - Perfume Oil (5 mL Roll-On)",perfume-oil,SHELL_V2_5ML,5,SHELL_V2,Perfume Oil,true
+"Shell v1 Perfume Oil Attar/Oud (5 mL Roll-On)",shell-v1-perfume-oil-attar-oud-5-ml-roll-on,SHELL_V1_5ML,5,SHELL_V1,Perfume Oil,false
