@@ -15,6 +15,7 @@ from etl.config import (
     DATA_SAMPLE_DIR,
     RAW_FILE_MAPPINGS, 
     REFERENCE_FILE_MAPPINGS,
+    PRIVATE_REFERENCE_MAPPINGS,
     SAMPLE_FILE_MAPPINGS,
     OPTIONAL_FILE_MAPPINGS,
     GSC_CHART_FILE,
@@ -129,9 +130,15 @@ def load_raw_data(use_sample: bool = False):
         load_csv_to_table(filepath, table_name, engine)
     
     # Always load reference files from reference directory
-    logger.info("Loading reference data (SKU map, materials, recipes)")
+    logger.info("Loading reference data (SKU map)")
     for filename, table_name in REFERENCE_FILE_MAPPINGS.items():
         filepath = os.path.join(DATA_REFERENCE_DIR, filename)
+        load_csv_to_table(filepath, table_name, engine)
+    
+    # Load private reference files (costs, recipes) from raw directory
+    logger.info("Loading private reference data (materials, recipes)")
+    for filename, table_name in PRIVATE_REFERENCE_MAPPINGS.items():
+        filepath = os.path.join(DATA_RAW_DIR, filename)
         load_csv_to_table(filepath, table_name, engine)
     
     # Try to load optional files (Meta ads, GSC) - don't fail if missing

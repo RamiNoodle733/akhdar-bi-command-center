@@ -5,9 +5,10 @@
 # ------------------------------------------
 # RAW DATA (contains PII - never commit)
 # ------------------------------------------
-data/raw/*.csv
-data/raw/*.xlsx
-data/raw/*.json
+data/raw/
+*.csv
+!data/reference/*.csv
+!data/sample/*.csv
 
 # ------------------------------------------
 # Environment and secrets

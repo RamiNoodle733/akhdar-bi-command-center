@@ -42,9 +42,13 @@ RAW_FILE_MAPPINGS = {
     'discounts_export_1.csv': 'raw.discounts',
 }
 
-# Reference file mappings
+# Reference file mappings (SKU map is public, costs/recipes are private)
 REFERENCE_FILE_MAPPINGS = {
     'product_sku_map.csv': 'raw.product_sku_map',
+}
+
+# Private reference files (loaded from raw folder - gitignored)
+PRIVATE_REFERENCE_MAPPINGS = {
     'material_costs.csv': 'raw.material_costs',
     'recipes.csv': 'raw.recipes',
 }
