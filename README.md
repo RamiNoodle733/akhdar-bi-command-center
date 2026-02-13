@@ -4,6 +4,8 @@
 
 This project demonstrates end-to-end Reporting Analyst skills: star schema data modeling, SQL KPI definitions, ETL pipelines, data quality testing, and business intelligence dashboards.
 
+![Dashboard Preview](dashboard/screenshots/executive_dashboard.png)
+
 ## 🎯 What This Dashboard Answers
 
 - **How much did we sell this week, and how does it compare to last week?**
